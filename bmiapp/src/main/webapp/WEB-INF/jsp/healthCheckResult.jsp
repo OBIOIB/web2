@@ -12,10 +12,10 @@
 <body>
 <h1>スッキリ健康診断の結果</h1>
 <p>
-身長:<%=health.getHeight() %><br>
-体重:<%=health.getWeight() %><br>
-BMI:<%=health.getBmi() %><br>
-体型:<%=health.getBodyType() %><br>
+身長:${health.height }<br>
+体重:${health.weight }<br>
+BMI:${health.bmi }<br>
+体型:${health.bodyType }
 </p>
 <a href="HealthCheck">戻る</a>
 </body>

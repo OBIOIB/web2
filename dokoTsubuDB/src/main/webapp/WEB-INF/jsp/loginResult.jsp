@@ -20,5 +20,6 @@
 <p>ログインに失敗しました</p>
 <a href="index.jsp">TOPへ</a>
 <%} %>
+<jsp:include page="footer.jsp"/>
 </body>
 </html>

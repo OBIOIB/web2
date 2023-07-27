@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>どこつぶ</title>
+<title>スッキリ商店	</title>
 </head>
 <body>
-<h1>どこつぶログアウト</h1>
-<p>ログアウトしました</p>
-<a href="index.jsp">トップへ</a>
-<jsp:include page="footer.jsp"/>
+<ul>
+<li><a href="LoginServlet">ログイン</a></li>
+<li><a href="RegisterServlet">ユーザ登録</a></li>
+</ul>
 </body>
 </html>

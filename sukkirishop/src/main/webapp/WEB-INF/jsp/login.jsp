@@ -4,15 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>どこつぶ</title>
+<title>スッキリ商店</title>
 </head>
 <body>
-<h1>どこつぶへようこそ</h1>
-<form action="Login" method="post">
-ユーザー名:<input type="text" name="name"><br>
+<form action="LoginServlet" method="post">
+ユーザーID:<input type="text" name="userId"><br>
 パスワード:<input type="password" name="pass"><br>
 <input type="submit" value="ログイン">
 </form>
-<jsp:include page="WEB-INF/jsp/footer.jsp"/>
 </body>
 </html>

@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="dokoTsubuDB" path="/dokoTsubuDB" reloadable="false" source="org.eclipse.jst.jee.server:dokoTsubuDB"/><Context docBase="fisfos" path="/fisfos" reloadable="false" source="org.eclipse.jst.jee.server:fisfos"/><Context docBase="ejword" path="/ejword" reloadable="false" source="org.eclipse.jst.jee.server:ejword"/></Host>
+      <Context docBase="dokoTsubuDB" path="/dokoTsubuDB" reloadable="false" source="org.eclipse.jst.jee.server:dokoTsubuDB"/><Context docBase="fisfos" path="/fisfos" reloadable="false" source="org.eclipse.jst.jee.server:fisfos"/><Context docBase="ejword" path="/ejword" reloadable="false" source="org.eclipse.jst.jee.server:ejword"/><Context docBase="initdestroy" path="/initdestroy" reloadable="false" source="org.eclipse.jst.jee.server:initdestroy"/><Context docBase="bmiapp" path="/bmiapp" reloadable="false" source="org.eclipse.jst.jee.server:bmiapp"/><Context docBase="employeeapp" path="/employeeapp" reloadable="false" source="org.eclipse.jst.jee.server:employeeapp"/><Context docBase="sukkirishop" path="/sukkirishop" reloadable="false" source="org.eclipse.jst.jee.server:sukkirishop"/></Host>
     </Engine>
   </Service>
 </Server>

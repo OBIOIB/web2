@@ -4,12 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>どこつぶ</title>
+<title>ユーザー登録</title>
 </head>
 <body>
-<h1>どこつぶログアウト</h1>
-<p>ログアウトしました</p>
-<a href="index.jsp">トップへ</a>
-<jsp:include page="footer.jsp"/>
+<form action="RegisterServlet" method
 </body>
 </html>
